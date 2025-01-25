@@ -1,0 +1,10 @@
+{
+  "name": "unslaught-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/unslaught-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["unslaught"],
+  "// targets": "to see all targets run: nx show project unslaught-e2e --web",
+  "targets": {}
+}
