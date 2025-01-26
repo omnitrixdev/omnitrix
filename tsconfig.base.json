@@ -10,33 +10,16 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@omnnitrix/ui": [
-        "packages/ui/src/index.ts"
-      ],
-      "@omnnitrix/shadcn": [
-        "shadcn/src"
-      ],
-      "@omnnitrix/utils": [
-        "utils/src"
-      ],
-      "@omnnitrix/shadcn/*": [
-        "shadcn/src/*"
-      ],
-      "@omnnitrix/utils/*": [
-        "utils/src/*"
-      ]
+      "@omnnitrix/packages/ui": ["packages/ui/src"],
+      "@omnnitrix/libs": ["packages/libs/src"],
+      "@omnnitrix/packages/ui/*": ["packages/ui/src/*"],
+      "@omnnitrix/lib/utils/*": ["packages/libs/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

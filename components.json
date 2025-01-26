@@ -3,15 +3,15 @@
   "style": "default",
   "rsc": false,
   "tailwind": {
-    "config": "utils\\src\\tailwind.config.ts",
-    "css": "utils\\src\\global.css",
+    "config": "packages\\libs\\src\\tailwind.config.ts",
+    "css": "packages\\libs\\src\\global.css",
     "baseColor": "neutral",
     "cssVariables": true
   },
   "aliases": {
-    "ui": "@omnnitrix/shadcn",
-    "components": "@omnnitrix/shadcn/components",
-    "utils": "@omnnitrix/utils",
-    "hooks": "@omnnitrix/shadcn/hooks"
+    "ui": "@omnnitrix/packages/ui",
+    "components": "@omnnitrix/packages/ui/components",
+    "utils": "@omnnitrix/libs",
+    "hooks": "@omnnitrix/packages/ui/hooks"
   }
 }
