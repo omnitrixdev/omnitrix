@@ -18,7 +18,8 @@
       "@omnnitrix/lib/utils/*": ["packages/libs/src/index.ts"],
       "@omnnitrix/libs": ["packages/libs/src"],
       "@omnnitrix/packages/ui": ["packages/ui/src"],
-      "@omnnitrix/packages/ui/*": ["packages/ui/src/*"]
+      "@omnnitrix/packages/ui/*": ["packages/ui/src/*"],
+      "@omnnitrix/trpc": ["trpc/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
