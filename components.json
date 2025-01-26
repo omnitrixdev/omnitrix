@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": false,
+  "tailwind": {
+    "config": "utils\\src\\tailwind.config.ts",
+    "css": "utils\\src\\global.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "aliases": {
+    "ui": "@omnnitrix/shadcn",
+    "components": "@omnnitrix/shadcn/components",
+    "utils": "@omnnitrix/utils",
+    "hooks": "@omnnitrix/shadcn/hooks"
+  }
+}
