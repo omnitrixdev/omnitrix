@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev:unslaught": "nx run unslaught:dev"
+    "dev:unslaught": "nx run unslaught:dev",
+    "format": "nx format:write"
   },
   "private": true,
   "dependencies": {

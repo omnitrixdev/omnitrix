@@ -15,10 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@omnnitrix/packages/ui": ["packages/ui/src"],
+      "@omnnitrix/lib/utils/*": ["packages/libs/src/index.ts"],
       "@omnnitrix/libs": ["packages/libs/src"],
-      "@omnnitrix/packages/ui/*": ["packages/ui/src/*"],
-      "@omnnitrix/lib/utils/*": ["packages/libs/src/index.ts"]
+      "@omnnitrix/packages/ui": ["packages/ui/src"],
+      "@omnnitrix/packages/ui/*": ["packages/ui/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
