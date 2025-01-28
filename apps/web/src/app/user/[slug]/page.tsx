@@ -5,7 +5,6 @@ import { Suspense } from 'react';
 async function UserWithServerData() {
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await res.json();
-  console.log('data', data);
   return data.map((u: { id: number; name: string }) => (
     <div key={u.id}>
       <h1>{u.name}</h1>
